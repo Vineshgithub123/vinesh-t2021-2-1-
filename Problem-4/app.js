@@ -17,5 +17,10 @@ var data1 = data.split(',')
 console.log(data1);
 const output =findtotalcount(data1)
 console.log(output);
+document.getElementById("result").innerHTML =JSON.stringify(output );
 
+}
+
+function refresh(){
+    window.location.reload()
 }
